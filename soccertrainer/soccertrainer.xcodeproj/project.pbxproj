@@ -22,6 +22,11 @@
 		01DB169E178F27BD00A01370 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DB167D178F27BD00A01370 /* UIKit.framework */; };
 		01DB16A6178F27BD00A01370 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01DB16A4178F27BD00A01370 /* InfoPlist.strings */; };
 		01DB16A8178F27BD00A01370 /* soccertrainerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB16A7178F27BD00A01370 /* soccertrainerTests.m */; };
+		01DB16B5178F298A00A01370 /* STPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB16B4178F298A00A01370 /* STPlayer.m */; };
+		01DB16B8178F2A8E00A01370 /* STTeam.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB16B7178F2A8E00A01370 /* STTeam.m */; };
+		01DB16BB178F2AA600A01370 /* STDrill.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB16BA178F2AA600A01370 /* STDrill.m */; };
+		01DB16BE178F2AB800A01370 /* STSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB16BD178F2AB800A01370 /* STSession.m */; };
+		01DB16C1178F2AD700A01370 /* STSeason.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB16C0178F2AD700A01370 /* STSeason.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,16 @@
 		01DB16A3178F27BD00A01370 /* soccertrainerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "soccertrainerTests-Info.plist"; sourceTree = "<group>"; };
 		01DB16A5178F27BD00A01370 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		01DB16A7178F27BD00A01370 /* soccertrainerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = soccertrainerTests.m; sourceTree = "<group>"; };
+		01DB16B3178F298A00A01370 /* STPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPlayer.h; sourceTree = "<group>"; };
+		01DB16B4178F298A00A01370 /* STPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPlayer.m; sourceTree = "<group>"; };
+		01DB16B6178F2A8E00A01370 /* STTeam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTeam.h; sourceTree = "<group>"; };
+		01DB16B7178F2A8E00A01370 /* STTeam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTeam.m; sourceTree = "<group>"; };
+		01DB16B9178F2AA600A01370 /* STDrill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDrill.h; sourceTree = "<group>"; };
+		01DB16BA178F2AA600A01370 /* STDrill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDrill.m; sourceTree = "<group>"; };
+		01DB16BC178F2AB800A01370 /* STSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSession.h; sourceTree = "<group>"; };
+		01DB16BD178F2AB800A01370 /* STSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSession.m; sourceTree = "<group>"; };
+		01DB16BF178F2AD700A01370 /* STSeason.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSeason.h; sourceTree = "<group>"; };
+		01DB16C0178F2AD700A01370 /* STSeason.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSeason.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +129,7 @@
 		01DB167F178F27BD00A01370 /* soccertrainer */ = {
 			isa = PBXGroup;
 			children = (
+				01DB16B2178F28F900A01370 /* Model */,
 				01DB1688178F27BD00A01370 /* STAppDelegate.h */,
 				01DB1689178F27BD00A01370 /* STAppDelegate.m */,
 				01DB168B178F27BD00A01370 /* Main_iPhone.storyboard */,
@@ -153,6 +169,23 @@
 				01DB16A4178F27BD00A01370 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01DB16B2178F28F900A01370 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01DB16B3178F298A00A01370 /* STPlayer.h */,
+				01DB16B4178F298A00A01370 /* STPlayer.m */,
+				01DB16B6178F2A8E00A01370 /* STTeam.h */,
+				01DB16B7178F2A8E00A01370 /* STTeam.m */,
+				01DB16B9178F2AA600A01370 /* STDrill.h */,
+				01DB16BA178F2AA600A01370 /* STDrill.m */,
+				01DB16BC178F2AB800A01370 /* STSession.h */,
+				01DB16BD178F2AB800A01370 /* STSession.m */,
+				01DB16BF178F2AD700A01370 /* STSeason.h */,
+				01DB16C0178F2AD700A01370 /* STSeason.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01DB16BE178F2AB800A01370 /* STSession.m in Sources */,
+				01DB16BB178F2AA600A01370 /* STDrill.m in Sources */,
+				01DB16B8178F2A8E00A01370 /* STTeam.m in Sources */,
 				01DB1693178F27BD00A01370 /* STViewController.m in Sources */,
+				01DB16B5178F298A00A01370 /* STPlayer.m in Sources */,
+				01DB16C1178F2AD700A01370 /* STSeason.m in Sources */,
 				01DB1686178F27BD00A01370 /* main.m in Sources */,
 				01DB168A178F27BD00A01370 /* STAppDelegate.m in Sources */,
 			);
