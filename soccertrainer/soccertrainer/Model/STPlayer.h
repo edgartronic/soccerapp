@@ -42,7 +42,7 @@ typedef enum {
 @property (nonatomic, strong) NSNumber *paymentAmount;
 @property (nonatomic, strong) NSDate *paymentDate;
 
-- (void) loadDataFromPlayerName: (NSString *) playerName;
+- (void) loadPlayerWithName: (NSString *) playerName;
 - (void) savePlayer;
 
 @end

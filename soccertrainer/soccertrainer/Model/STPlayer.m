@@ -12,7 +12,7 @@
 
 @synthesize playerNameFull, playerNameFirst, playerNameLast, playerAge, playerAddressOne, playerAddressTwo, playerAddressCity, playerAddressState, playerAddressZip, playerEmail, playerPhone, playerParentName, playerPhoto, playerPosition, paymentAmount, paymentDate;
 
-- (void) loadDataFromPlayerName: (NSString *) playerName {
+- (void) loadPlayerWithName: (NSString *) playerName {
     PFQuery *playerQuery = [PFQuery queryWithClassName: PLAYER];
     [playerQuery whereKey: PLAYER_NAME_FULL equalTo: playerName];
     [playerQuery findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
