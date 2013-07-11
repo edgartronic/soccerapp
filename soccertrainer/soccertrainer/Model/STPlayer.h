@@ -23,6 +23,7 @@ typedef enum {
 
 @interface STPlayer : NSObject
 
+@property (nonatomic, strong) NSString *playerNameFull;
 @property (nonatomic, strong) NSString *playerNameFirst;
 @property (nonatomic, strong) NSString *playerNameLast;
 @property (nonatomic, strong) NSNumber *playerAge;
@@ -40,5 +41,8 @@ typedef enum {
 @property (nonatomic) BOOL isPaid;
 @property (nonatomic, strong) NSNumber *paymentAmount;
 @property (nonatomic, strong) NSDate *paymentDate;
+
+- (void) loadDataFromPlayerName: (NSString *) playerName;
+- (void) savePlayer;
 
 @end
