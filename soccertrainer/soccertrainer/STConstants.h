@@ -11,6 +11,7 @@
 
 #define TEAM @"team"
 #define TEAM_NAME @"teamName"
+#define TEAM_PLAYERS @"teamPlayers"
 
 #define PLAYER @"player"
 #define PLAYER_NAME_FULL @"playerName"
