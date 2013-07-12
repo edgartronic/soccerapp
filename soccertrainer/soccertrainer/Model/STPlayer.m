@@ -65,7 +65,7 @@
     
     [playerObj saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (succeeded) {
-            NSLog(@"save successful.");
+            NSLog(@"Player %@ saved successfully.", self.playerNameFull);
         } else {
             NSLog(@"error: %@", error.localizedDescription);
         }

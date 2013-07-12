@@ -28,11 +28,12 @@
         if (objects.count == 1) {
             PFObject *teamObj = [objects objectAtIndex: 0];
             self.teamName = [teamObj objectForKey: TEAM_NAME];
+            NSLog(@"Team %@ found", self.teamName);
             PFQuery *playerQuery = [PFQuery queryWithClassName: PLAYER];
             [playerQuery whereKey: @"parent" equalTo: teamObj];
             [playerQuery findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
                 if (objects.count > 1) {
-                    NSLog(@"%i objects found", objects.count);
+                    NSLog(@"%i players associated with %@", objects.count, self.teamName);
                     for (PFObject *object in objects) {
                         STPlayer *player = [STPlayer new];
                         player.playerNameFull = [object valueForKey: PLAYER_NAME_FULL];
@@ -54,7 +55,7 @@
     }
     [teamObj saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (succeeded) {
-            NSLog(@"team saved successfully!");
+            NSLog(@"Team %@ saved successfully!", self.teamName);
         } else {
             NSLog(@"ERROR: %@", error.localizedDescription);
         }
