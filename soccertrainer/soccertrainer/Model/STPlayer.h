@@ -41,6 +41,7 @@ typedef enum {
 @property (nonatomic) BOOL isPaid;
 @property (nonatomic, strong) NSNumber *paymentAmount;
 @property (nonatomic, strong) NSDate *paymentDate;
+@property (nonatomic, strong) PFObject *parentObject;
 
 - (void) loadPlayerWithName: (NSString *) playerName;
 - (void) savePlayer;

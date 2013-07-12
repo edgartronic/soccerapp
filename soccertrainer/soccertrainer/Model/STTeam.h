@@ -13,4 +13,7 @@
 @property (nonatomic, strong) NSString *teamName;
 @property (nonatomic, strong) NSMutableArray *teamPlayers;
 
+- (void) loadTeamWithName: (NSString *) _teamName;
+- (void) saveTeam;
+
 @end
