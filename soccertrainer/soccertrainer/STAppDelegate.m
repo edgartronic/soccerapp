@@ -7,6 +7,7 @@
 //
 
 #import "STAppDelegate.h"
+#import "STTabBarController.h"
 
 @implementation STAppDelegate
 
@@ -14,6 +15,12 @@
 {
     // Override point for customization after application launch.
     [Parse setApplicationId: @"56jzGzF5vamRNwqstsflNkxGMiXvSnIFwWzEMBFq" clientKey: @"tvhXR0JevkBObDCPeTMJYoMXwveOiF8lGywEKhB3"];
+    
+    STTabBarController *tabBarController = [STTabBarController new];
+    UIWindow *appKeyWindow = [UIApplication sharedApplication].keyWindow;
+    appKeyWindow.rootViewController = tabBarController;
+    [appKeyWindow addSubview: tabBarController.view];
+    
     
     return YES;
 }
