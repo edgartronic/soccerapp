@@ -16,14 +16,17 @@
 		0119FC29178F4C0100386A8E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0119FC28178F4C0100386A8E /* Security.framework */; };
 		0119FC2B178F4C0700386A8E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0119FC2A178F4C0700386A8E /* StoreKit.framework */; };
 		0119FC2D178F4C1000386A8E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0119FC2C178F4C1000386A8E /* SystemConfiguration.framework */; };
+		0179080B17CA635800519400 /* STTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179080A17CA635800519400 /* STTabBarController.m */; };
+		0179080E17CA646800519400 /* STHomeNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179080D17CA646800519400 /* STHomeNavController.m */; };
+		0179081117CA691800519400 /* STTeamsNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179081017CA691800519400 /* STTeamsNavController.m */; };
+		0179081417CA69EF00519400 /* STDrillsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179081317CA69EF00519400 /* STDrillsViewController.m */; };
+		0179081717CA6A2A00519400 /* STSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179081617CA6A2A00519400 /* STSettingsViewController.m */; };
 		01DB167A178F27BD00A01370 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DB1679178F27BD00A01370 /* Foundation.framework */; };
 		01DB167C178F27BD00A01370 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DB167B178F27BD00A01370 /* CoreGraphics.framework */; };
 		01DB167E178F27BD00A01370 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DB167D178F27BD00A01370 /* UIKit.framework */; };
 		01DB1684178F27BD00A01370 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01DB1682178F27BD00A01370 /* InfoPlist.strings */; };
 		01DB1686178F27BD00A01370 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB1685178F27BD00A01370 /* main.m */; };
 		01DB168A178F27BD00A01370 /* STAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB1689178F27BD00A01370 /* STAppDelegate.m */; };
-		01DB168D178F27BD00A01370 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01DB168B178F27BD00A01370 /* Main_iPhone.storyboard */; };
-		01DB1690178F27BD00A01370 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01DB168E178F27BD00A01370 /* Main_iPad.storyboard */; };
 		01DB1693178F27BD00A01370 /* STViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB1692178F27BD00A01370 /* STViewController.m */; };
 		01DB1695178F27BD00A01370 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01DB1694178F27BD00A01370 /* Images.xcassets */; };
 		01DB169C178F27BD00A01370 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DB169B178F27BD00A01370 /* XCTest.framework */; };
@@ -60,6 +63,16 @@
 		0119FC28178F4C0100386A8E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		0119FC2A178F4C0700386A8E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		0119FC2C178F4C1000386A8E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0179080917CA635800519400 /* STTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTabBarController.h; sourceTree = "<group>"; };
+		0179080A17CA635800519400 /* STTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTabBarController.m; sourceTree = "<group>"; };
+		0179080C17CA646800519400 /* STHomeNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHomeNavController.h; sourceTree = "<group>"; };
+		0179080D17CA646800519400 /* STHomeNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHomeNavController.m; sourceTree = "<group>"; };
+		0179080F17CA691800519400 /* STTeamsNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTeamsNavController.h; sourceTree = "<group>"; };
+		0179081017CA691800519400 /* STTeamsNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTeamsNavController.m; sourceTree = "<group>"; };
+		0179081217CA69EE00519400 /* STDrillsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDrillsViewController.h; sourceTree = "<group>"; };
+		0179081317CA69EF00519400 /* STDrillsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDrillsViewController.m; sourceTree = "<group>"; };
+		0179081517CA6A2A00519400 /* STSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSettingsViewController.h; sourceTree = "<group>"; };
+		0179081617CA6A2A00519400 /* STSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSettingsViewController.m; sourceTree = "<group>"; };
 		01DB1676178F27BD00A01370 /* soccertrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soccertrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01DB1679178F27BD00A01370 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		01DB167B178F27BD00A01370 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -70,8 +83,6 @@
 		01DB1687178F27BD00A01370 /* soccertrainer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "soccertrainer-Prefix.pch"; sourceTree = "<group>"; };
 		01DB1688178F27BD00A01370 /* STAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAppDelegate.h; sourceTree = "<group>"; };
 		01DB1689178F27BD00A01370 /* STAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppDelegate.m; sourceTree = "<group>"; };
-		01DB168C178F27BD00A01370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		01DB168F178F27BD00A01370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		01DB1691178F27BD00A01370 /* STViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STViewController.h; sourceTree = "<group>"; };
 		01DB1692178F27BD00A01370 /* STViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STViewController.m; sourceTree = "<group>"; };
 		01DB1694178F27BD00A01370 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -173,13 +184,21 @@
 				01DB16B2178F28F900A01370 /* Model */,
 				01DB1688178F27BD00A01370 /* STAppDelegate.h */,
 				01DB1689178F27BD00A01370 /* STAppDelegate.m */,
-				01DB168B178F27BD00A01370 /* Main_iPhone.storyboard */,
-				01DB168E178F27BD00A01370 /* Main_iPad.storyboard */,
 				01DB1691178F27BD00A01370 /* STViewController.h */,
 				01DB1692178F27BD00A01370 /* STViewController.m */,
 				01DB1694178F27BD00A01370 /* Images.xcassets */,
 				01DB1680178F27BD00A01370 /* Supporting Files */,
 				01128828178F5E7700E4FB36 /* STConstants.h */,
+				0179080917CA635800519400 /* STTabBarController.h */,
+				0179080A17CA635800519400 /* STTabBarController.m */,
+				0179080C17CA646800519400 /* STHomeNavController.h */,
+				0179080D17CA646800519400 /* STHomeNavController.m */,
+				0179080F17CA691800519400 /* STTeamsNavController.h */,
+				0179081017CA691800519400 /* STTeamsNavController.m */,
+				0179081217CA69EE00519400 /* STDrillsViewController.h */,
+				0179081317CA69EF00519400 /* STDrillsViewController.m */,
+				0179081517CA6A2A00519400 /* STSettingsViewController.h */,
+				0179081617CA6A2A00519400 /* STSettingsViewController.m */,
 			);
 			path = soccertrainer;
 			sourceTree = "<group>";
@@ -307,9 +326,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01DB1690178F27BD00A01370 /* Main_iPad.storyboard in Resources */,
 				01DB1695178F27BD00A01370 /* Images.xcassets in Resources */,
-				01DB168D178F27BD00A01370 /* Main_iPhone.storyboard in Resources */,
 				01DB1684178F27BD00A01370 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,8 +351,13 @@
 				01DB16B8178F2A8E00A01370 /* STTeam.m in Sources */,
 				01DB1693178F27BD00A01370 /* STViewController.m in Sources */,
 				01DB16B5178F298A00A01370 /* STPlayer.m in Sources */,
+				0179080B17CA635800519400 /* STTabBarController.m in Sources */,
 				01DB16C1178F2AD700A01370 /* STSeason.m in Sources */,
+				0179081417CA69EF00519400 /* STDrillsViewController.m in Sources */,
+				0179081117CA691800519400 /* STTeamsNavController.m in Sources */,
+				0179080E17CA646800519400 /* STHomeNavController.m in Sources */,
 				01DB1686178F27BD00A01370 /* main.m in Sources */,
+				0179081717CA6A2A00519400 /* STSettingsViewController.m in Sources */,
 				01DB168A178F27BD00A01370 /* STAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,22 +387,6 @@
 				01DB1683178F27BD00A01370 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		01DB168B178F27BD00A01370 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				01DB168C178F27BD00A01370 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		01DB168E178F27BD00A01370 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				01DB168F178F27BD00A01370 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		01DB16A4178F27BD00A01370 /* InfoPlist.strings */ = {
@@ -476,6 +482,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "soccertrainer/soccertrainer-Prefix.pch";
 				INFOPLIST_FILE = "soccertrainer/soccertrainer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -493,6 +500,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "soccertrainer/soccertrainer-Prefix.pch";
 				INFOPLIST_FILE = "soccertrainer/soccertrainer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
